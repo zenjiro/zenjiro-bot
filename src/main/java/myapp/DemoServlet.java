@@ -25,7 +25,7 @@ public class DemoServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
-    resp.setContentType("text/plain");
+    resp.setContentType("text/plain; charset=UTF-8");
     resp.getWriter().println("こんにちは！！！！");
   }
 }
