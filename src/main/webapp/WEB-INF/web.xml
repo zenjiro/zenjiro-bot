@@ -5,11 +5,11 @@
 
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
     <servlet>
-        <servlet-name>hello</servlet-name>
-        <servlet-class>zenjiro.HelloServlet</servlet-class>
+        <servlet-name>update</servlet-name>
+        <servlet-class>zenjiro.UpdateTweetBotServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>hello</servlet-name>
+        <servlet-name>update</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>
